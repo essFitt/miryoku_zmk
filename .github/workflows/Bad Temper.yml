@@ -12,5 +12,6 @@ jobs:
       shield: '["temper_left nice_view_adapter nice_view_gem","temper_right nice_view_adapter nice_view_gem"]'
       nav: '["invertedT"]'
       layers: '["flip"]'
+      custom_config: '["#define MIRYOKU_KLUDGE_MOUSEKEYSPR"]'
       kconfig: '["CONFIG_ZMK_DISPLAY=y\nCONFIG_ZMK_DISPLAY_STATUS_SCREEN_CUSTOM=y\nCONFIG_NICE_VIEW_GEM_ANIMATION=n\nCONFIG_ZMK_MOUSE=y"]'
       modules: '["M165437/nice-view-gem/main"]'
